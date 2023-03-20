@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #202020;
+    scroll-snap-type: mandatory;
+}
+header{
+    width: 100%;
+    background-color: #ff9e43;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+#logo{
+    width: 7.8rem;
+    margin-left: 5rem;
+}
+nav{
+    display: flex;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 4rem;
+    margin-right: 5rem;
+
+}
+li a{
+    
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    color: rgb(0,0,0);
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 20px
+    
+}
+li a:hover{
+    color: rgb(0,0,0);
+    background-color: rgb(230, 130, 0);
+    transition: 0.5s;
+    
+}
+
+section.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+@media  screen and(min-width: 1000px) {
+    div.boxes{
+        width: 300px;
+        height: 300px;
+        background-color: #ff9e43;
+        margin-left: 30px;
+        text-align: centers;
+    }
+    
+    div.boxes:hover{
+        width: 400px;
+        height: 400px;
+        transition: 1.5s;
+    
+    }
+    div.boxes:not(:hover){
+        width: 300px;
+        height: 300px;
+        transition: 1s;
+    
+    }
+}
+div.boxes{
+    width: 300px;
+    height: 300px;
+    background-color: #ff9e43;
+    margin-left: 30px;
+    text-align: centers;
+}
+
+div.boxes:hover{
+    width: 400px;
+    height: 400px;
+    transition: 1.5s;
+
+}
+div.boxes:not(:hover){
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+
+}
+#subtitulo{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    color: rgb(255, 182, 73);
+    margin-top: 60px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body{
+    display: grid;
+    
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    background-color: #111111;
+    color: white;
+    font-family: 'Ubuntu';
+}
+div#contato h2{
+    margin-bottom: 20px;
+}
+div#contato{
+    margin-top: 20px;
+}
+div#contato p{
+    font-size: 16pt;
+}
+#mapa{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
