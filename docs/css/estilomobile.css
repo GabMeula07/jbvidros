@@ -107,9 +107,61 @@
     }
     
 
+}
 
+@media screen and (max-width: 375px){
+    #logo{
+        width: 4rem;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .nav_list{
+        column-gap: 10px;
+        margin-left: -80px;
+      
+    }
+}
+@media screen and (max-width: 320px){
+    #logo{
+        width: 4rem;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .nav_list{
+    
+        column-gap: 10px;
+        margin-left: -70px;
+      
+    }
+    li{
+        margin-left: -16px;
+    }
+    li:first-child{
+        width: 70px;
+    }
+    li a{
+        font-size: 12pt;
+        padding: 2px;
+        margin-left: 5px;
+    }
 
+    div.boxes{
+        width: 100px;
+        height: 100px;
+        background-color: #ff8000;
+        margin-left: 30px;
+    }
+    div.boxes:not(:hover){
+        width: 200px;
+        height: 200px;
+    }
+    
+    div.boxes:hover{
+        width: 250px;
+        height: 250px;
+    }
 
-
-
+    div#contato p{
+        font-size: 13pt;
+    }
 }
