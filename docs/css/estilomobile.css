@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px ) and (min-width: 321px){
     #logo{
         width: 4rem;
         margin-left: -15px;
@@ -119,6 +119,17 @@
         column-gap: 10px;
         margin-left: -80px;
       
+    }
+    li{
+        margin-left: -16px;
+    }
+    li:first-child{
+        width: 70px;
+    }
+    li a{
+        font-size: 12pt;
+        padding: 2px;
+        margin-left: 5px;
     }
 }
 @media screen and (max-width: 320px){
