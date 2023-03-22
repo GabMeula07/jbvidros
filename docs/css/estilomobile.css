@@ -149,6 +149,7 @@
     }
     li:first-child{
         width: 70px;
+        margin-right: -4px;
     }
     li a{
         font-size: 12pt;
@@ -189,6 +190,7 @@
     }
     li:first-child{
         width: 70px;
+        margin-right: -4px;
     }
     li a{
         font-size: 12pt;
