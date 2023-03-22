@@ -23,38 +23,21 @@
         row-gap: 20px;
     }
 
-    div.boxes{
-        width: 200px;
-        height: 200px;
-        background-color: #ff8000;
-        margin-left: 80px;
-    }
-    div.boxes:not(:hover){
-        width: 250px;
-        height: 250px;
-    }
-    
-    div.boxes:hover{
-        width: 300px;
-        height: 300px;
-    }
-    
-   
     body{
         overflow-x: hidden;
     }
 
     header{
         width: 500px;
-        background-color: #ff9e43;
+        background-color: #ffbf00;
         display: flex;
         justify-content: space-around;
-        column-gap: -30px;
+        column-gap: -1000px;
      
     }
     #logo{
         width: 5rem;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 5px;
     }
     
@@ -111,7 +94,7 @@
 @media screen and (max-width: 500px) and (min-width: 390px){
     #logo{
         width: 5rem;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 5px;
     }
     
@@ -141,7 +124,7 @@
     }
     .nav_list{
         column-gap: 10px;
-        margin-left: -80px;
+        margin-left: -50px;
       
     }
     li{

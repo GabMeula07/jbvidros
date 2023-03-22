@@ -56,21 +56,22 @@ section.container{
     margin-top: 70px;
 }
 @media  screen and(min-width: 1000px) {
-    div.boxes{
+    .img_boxes{
         width: 300px;
         height: 300px;
         background-color: #ffbf00;
+        border: solid 5px #ffbf00;
         margin-left: 30px;
         text-align: centers;
     }
     
-    div.boxes:hover{
+    .img_boxes:hover{
         width: 400px;
         height: 400px;
         transition: 1.5s;
     
     }
-    div.boxes:not(:hover){
+    .img_boxes:not(:hover){
         width: 300px;
         height: 300px;
         transition: 1s;
@@ -108,7 +109,6 @@ section.container{
 
 body{
     display: grid;
-    
 }
 footer{
     padding-top: 30px;
