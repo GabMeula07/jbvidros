@@ -11,7 +11,7 @@ html{
 }
 header{
     width: 100%;
-    background-color: #ff9e43;
+    background-color: #ffbf00;
     display: flex;
     justify-content: space-between;
  
@@ -44,7 +44,7 @@ li a{
 }
 li a:hover{
     color: rgb(0,0,0);
-    background-color: rgb(230, 130, 0);
+    background-color: #e9af02;
     transition: 0.5s;
     
 }
@@ -59,7 +59,7 @@ section.container{
     div.boxes{
         width: 300px;
         height: 300px;
-        background-color: #ff9e43;
+        background-color: #ffbf00;
         margin-left: 30px;
         text-align: centers;
     }
@@ -80,7 +80,7 @@ section.container{
 div.boxes{
     width: 300px;
     height: 300px;
-    background-color: #ff9e43;
+    background-color: #ffbf00;
     margin-left: 30px;
     text-align: centers;
 }
@@ -99,7 +99,7 @@ div.boxes:not(:hover){
 }
 #subtitulo{
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-    color: rgb(255, 182, 73);
+    color: #ffbf00;
     margin-top: 60px;
     font-size: 3rem;
     text-align: center;
