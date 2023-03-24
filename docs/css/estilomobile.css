@@ -9,8 +9,8 @@
         
         margin-top: 60px;
         font-size: 1.7rem;
-        text-align: start;
-        margin-left: 30px;
+        text-align: center;
+        margin-left: 1.9rem;
     }
     
     section.container{
@@ -124,6 +124,14 @@
         padding: 1rem;
     
     }
+
+    #subtitulo{
+        
+        margin-top: 60px;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-left: 3.5rem;
+    }
 }
 @media screen and (max-width: 385px ) and (min-width: 321px){
     header{
@@ -173,6 +181,13 @@
         justify-content: space-around;
         column-gap: -1000px;
      
+    }
+    #subtitulo{
+        
+        margin-top: 60px;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-left: 0.4rem;
     }
     #logo{
         width: 4rem;
