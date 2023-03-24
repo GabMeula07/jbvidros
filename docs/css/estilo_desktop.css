@@ -141,3 +141,201 @@
 
 }
 
+@media  screen and (max-width: 1420px) and (min-width:1026px){
+    
+    .img_boxes{
+        width: 330px;
+        height: 330px;
+        background-color: #ffbf00;
+        border: solid 5px #ffbf00;
+        left: 0px;
+        position: relative;
+        z-index: -1;
+        
+    }
+    
+    .img_container{
+        position: relative;
+        width: 340px;
+        transition: 1s;
+        margin-left: 20px;
+        
+    }
+    .legenda{
+        visibility: hidden;
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        
+    }
+    
+    .legenda h1{
+        margin: 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+    }
+    
+    .img_container:hover .legenda{
+        transition: 1.5s;
+        visibility: visible;
+        
+    }
+    .img_container:hover{
+        transition: 3s;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 9.74%, #ffbf00 100%);
+       
+    }
+
+
+}
+@media  screen and (max-width: 425px) and (min-width:376px){
+    
+    .img_boxes{
+        width: 350px;
+        height: 350px;
+        background-color: #ffbf00;
+        border: solid 5px #ffbf00;
+        left: 0px;
+        position: relative;
+        z-index: -1;
+        
+    }
+    
+    .img_container{
+        position: relative;
+        width: 360px;
+        transition: 1s;
+        margin-left: 20px;
+        
+    }
+    .legenda{
+        visibility: hidden;
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        text-shadow: 1px 1px 0px #000;
+        
+    }
+    
+    .legenda h1{
+        margin: 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+    }
+    
+    .img_container:hover .legenda{
+        transition: 1.5s;
+        visibility: visible;
+        
+    }
+    .img_container:hover{
+        transition: 3s;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 9.74%, #ffbf00 100%);
+       
+    }
+
+
+}
+@media  screen and (max-width: 375px) and (min-width: 321px){
+    
+    .img_boxes{
+        width: 300px;
+        height: 300px;
+        background-color: #ffbf00;
+        border: solid 5px #ffbf00;
+        left: 0px;
+        position: relative;
+        z-index: -1;
+        
+    }
+    
+    .img_container{
+        position: relative;
+        width: 310px;
+        transition: 1s;
+        margin-left: 20px;
+        
+    }
+    .legenda{
+        visibility: hidden;
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        text-shadow: 1px 1px 0px #000;
+        
+    }
+    
+    .legenda h1{
+        margin: 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+    }
+    
+    .img_container:hover .legenda{
+        transition: 1.5s;
+        visibility: visible;
+        
+    }
+    .img_container:hover{
+        transition: 3s;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 9.74%, #ffbf00 100%);
+       
+    }
+
+
+}
+@media  screen and (max-width: 320px) {
+    
+    .img_boxes{
+        width: 260px;
+        height: 260px;
+        background-color: #ffbf00;
+        border: solid 5px #ffbf00;
+        left: 0px;
+        position: relative;
+        z-index: -1;
+        
+    }
+    
+    .img_container{
+        position: relative;
+        width: 270px;
+        transition: 1s;
+        margin-left: 20px;
+        
+    }
+    .legenda{
+        visibility: hidden;
+        position: absolute;
+        left: 20px;
+        bottom: 30px;
+        text-shadow: 1px 1px 0px #000;
+        
+    }
+    
+    .legenda h1{
+        margin: 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+    }
+    
+    .img_container:hover .legenda{
+        transition: 1.5s;
+        visibility: visible;
+        
+    }
+    .img_container:hover{
+        transition: 3s;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 9.74%, #ffbf00 100%);
+       
+    }
+
+
+}
+
+
+
