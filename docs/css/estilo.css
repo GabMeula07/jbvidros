@@ -55,50 +55,50 @@ section.container{
     align-items: center;
     margin-top: 70px;
 }
-@media  screen and(min-width: 1000px) {
-    .img_boxes{
-        width: 300px;
-        height: 300px;
-        background-color: #ffbf00;
-        border: solid 5px #ffbf00;
-        margin-left: 30px;
-        text-align: centers;
-    }
-    
-    .img_boxes:hover{
-        width: 400px;
-        height: 400px;
-        transition: 1.5s;
-    
-    }
-    .img_boxes:not(:hover){
-        width: 300px;
-        height: 300px;
-        transition: 1s;
-    
-    }
-}
+
 .img_boxes{
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     background-color: #ffbf00;
     border: solid 5px #ffbf00;
-    margin-left: 30px;
-    text-align: centers;
+    left: 0px;
+    position: relative;
+    z-index: -1;
+    
+    
 }
 
-.img_boxes:hover{
-    width: 400px;
-    height: 400px;
-    transition: 1.5s;
-
-}
-.img_boxes:not(:hover){
-    width: 300px;
-    height: 300px;
+.img_container{
+    position: relative;
+    width: 460px;
     transition: 1s;
-
+    margin-left: 30px;
+    
 }
+.legenda{
+    visibility: hidden;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+
+.legenda h1{
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_container:hover .legenda{
+    transition: 1.5s;
+    visibility: visible;
+    
+}
+.img_container:hover{
+    transition: 3s;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 9.74%, #ffbf00 100%);
+   
+}
+
 #subtitulo{
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     color: #ffbf00;
