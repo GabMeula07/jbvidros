@@ -81,12 +81,16 @@
     }
     div#contato p{
         font-size: 16pt;
+        margin-bottom: 10px;
     }
     #mapa{
         width: 50%;
         height: 50%;
         border-radius: 10px;
         margin-left: 10px;
+    }
+    #email{
+        width: 380px;
     }
     
 
@@ -197,7 +201,7 @@
         margin-left: 10px;
     }
     div#contato p{
-        font-size: 16pt;
+        font-size: 15pt;
     }
     #mapa{
         width: 50%;
@@ -247,24 +251,10 @@
         margin-left: 5px;
     }
 
-    div.boxes{
-        width: 100px;
-        height: 100px;
-        background-color: #ff8000;
-        margin-left: 30px;
-    }
-    div.boxes:not(:hover){
-        width: 200px;
-        height: 200px;
-    }
-    
-    div.boxes:hover{
-        width: 250px;
-        height: 250px;
-    }
 
     div#contato p{
         font-size: 13pt;
+        
     }
     div#contato h2{
         margin-bottom: 20px;
@@ -275,7 +265,7 @@
         margin-left: 10px;
     }
     div#contato p{
-        font-size: 16pt;
+        font-size: 13pt;
     }
     #mapa{
         width: 50%;
@@ -283,4 +273,6 @@
         border-radius: 10px;
         margin-left: 10px;
     }
+
+
 }
