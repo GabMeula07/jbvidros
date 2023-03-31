@@ -1,0 +1,155 @@
+.cont_contato h1{
+    color: #ffbf00;
+    font-size: 37pt;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    
+}
+.cont_contato{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.c_contato{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+i{
+    color: #ffbf00;
+    font-size: 40pt;
+}
+a{
+    color: #ffffff;
+    font-size: 20pt;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) and (min-width: 425px){
+    .cont_contato h1{
+        color: #ffbf00;
+        font-size: 30pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        
+    }
+    .cont_contato{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .c_contato{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    i{
+        color: #ffbf00;
+        font-size: 30pt;
+    }
+    a{
+        color: #ffffff;
+        font-size: 17pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    .cont_contato h1{
+        width: 400px;
+        color: #ffbf00;
+        font-size: 20pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .cont_contato{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .c_contato{
+        display: flex;
+        align-items: center;
+        
+    }
+    i{
+        color: #ffbf00;
+        font-size: 20pt;
+        width: fit-content;
+    }
+    a{
+        color: #ffffff;
+        font-size: 14pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+}
+@media screen and (max-width:375px) and (min-width:321px){
+    .cont_contato h1{
+        width: 400px;
+        color: #ffbf00;
+        font-size: 17pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .cont_contato{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .c_contato{
+        display: flex;
+        align-items: center;
+        
+    }
+    i{
+        color: #ffbf00;
+        font-size: 17pt;
+        width: fit-content;
+    }
+    a{
+        color: #ffffff;
+        font-size: 12pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width:320px){
+    .cont_contato h1{
+        width: 400px;
+        color: #ffbf00;
+        font-size: 14pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+    }
+    .cont_contato{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .c_contato{
+        display: flex;
+        align-items: center;
+        
+    }
+    i{
+        color: #ffbf00;
+        font-size: 16pt;
+        width: fit-content;
+    }
+    a{
+        color: #ffffff;
+        font-size: 10pt;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+}
